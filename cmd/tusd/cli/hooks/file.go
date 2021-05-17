@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/tus/tusd/pkg/handler"
+	"github.com/busyfree/tusd/pkg/handler"
 )
 
 type FileHook struct {

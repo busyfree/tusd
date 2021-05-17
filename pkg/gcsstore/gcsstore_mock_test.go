@@ -6,7 +6,7 @@ package gcsstore_test
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	gcsstore "github.com/tus/tusd/pkg/gcsstore"
+	gcsstore "github.com/busyfree/tusd/pkg/gcsstore"
 	io "io"
 )
 

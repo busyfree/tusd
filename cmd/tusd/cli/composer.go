@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tus/tusd/pkg/filelocker"
-	"github.com/tus/tusd/pkg/filestore"
-	"github.com/tus/tusd/pkg/gcsstore"
-	"github.com/tus/tusd/pkg/handler"
-	"github.com/tus/tusd/pkg/memorylocker"
-	"github.com/tus/tusd/pkg/s3store"
+	"github.com/busyfree/tusd/pkg/filelocker"
+	"github.com/busyfree/tusd/pkg/filestore"
+	"github.com/busyfree/tusd/pkg/gcsstore"
+	"github.com/busyfree/tusd/pkg/handler"
+	"github.com/busyfree/tusd/pkg/memorylocker"
+	"github.com/busyfree/tusd/pkg/s3store"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

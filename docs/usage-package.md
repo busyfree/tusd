@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tus/tusd/pkg/filestore"
-	tusd "github.com/tus/tusd/pkg/handler"
+	"github.com/busyfree/tusd/pkg/filestore"
+	tusd "github.com/busyfree/tusd/pkg/handler"
 )
 
 func main() {
